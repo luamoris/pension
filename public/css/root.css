@@ -1,0 +1,100 @@
+/* ============ FONTS ============ */
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+/* ============ VALUES ============ */
+
+:root {
+
+   /* NORMALIZE */
+   --wrapper-bg: rgba(255, 255, 255, 1);
+   --tap-bg-hide: rgba(0, 0, 0, 0);
+   --selection-bg: rgba(0, 0, 0, 0.2);
+
+   /* SHELL */
+   --app-padding-y: 40px;
+   --app-padding-x: 20px;
+   --content-max-width: 920px;
+
+   /* FONT */
+   --font-family-main: "Montserrat";
+   --font-size-main: 12px;
+   --font-weight-main: 600;
+
+   --font-color-main: rgba(25, 26, 27, 0.7);
+   --font-color-main-h: rgba(25, 26, 27, 1);
+   --font-color-main-none: rgba(25, 26, 27, 0.4);
+
+   --font-color-main-input: rgba(25, 26, 27, 0.6);
+
+   /* TEXT */
+   --line-height: 1.4em;
+   --letter-spacing: 0.02em;
+
+   --h1-size: 18px;
+   --h2-size: 16px;
+   --h3-size: 14px;
+   --h4-size: 12px;
+   --h5-size: 10px;
+   --h6-size: 8px;
+
+   /* OTHER COLORS */
+   --red: rgba(226, 98, 74, 1);
+   --green: rgba(76, 179, 73, 1);
+   --blue: rgba(99, 165, 234, 1);
+}
+
+
+/* ============ MEDIA ============ */
+
+@media (max-width: 1024px) {
+   :root {
+      /* HEADER */
+      --h-margin: 20px 0 30px 0;
+   }
+}
+
+@media (max-width: 768px) {
+   :root {
+      /* SHELL */
+      --app-padding-y: 20px;
+      /* HEADER */
+      --h-title-size: 18px;
+      --h-avatar-size: 90px;
+      --h1-size: 16px;
+      --h2-size: 14px;
+      --h3-size: 12px;
+      --h4-size: 10px;
+      --h5-size: 8px;
+   }
+}
+
+@media (max-width: 500px) {
+   :root {
+      /* SHELL */
+      --app-padding-y: 10px;
+      --app-padding-x: 10px;
+      /* HEADER */
+      --h-title-size: 16px;
+      --h-margin: 10px 0 20px 0;
+      --h-avatar-size: 80px;
+      /* FOOTER */
+      --f-margin: 20px 0 0 0;
+   }
+}
+
+@media (max-width: 425px) {
+   :root {}
+}
+
+@media (max-width: 375px) {
+   :root {}
+}
+
+@media (max-width: 320px) {
+   :root {}
+}
+
+/* ============ END :) ============ */

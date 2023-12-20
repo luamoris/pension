@@ -1,0 +1,58 @@
+[
+   {
+      "id": 1,
+      "user_id": 5,
+      "date": "01.12.2023",
+      "status": false,
+      "type": 3,
+      "content": {}
+   },
+   {
+      "id": 2,
+      "user_id": 5,
+      "date": "01.12.2023",
+      "status": false,
+      "type": 1,
+      "content": {}
+   },
+   {
+      "id": 3,
+      "user_id": 4,
+      "date": "02.12.2023",
+      "status": false,
+      "type": 3,
+      "content": {}
+   },
+   {
+      "id": 4,
+      "user_id": 4,
+      "date": "02.12.2023",
+      "status": false,
+      "type": 1,
+      "content": {}
+   },
+   {
+      "id": 5,
+      "user_id": 1,
+      "date": "20.12.2023",
+      "status": true,
+      "type": 1,
+      "content": {}
+   },
+   {
+      "id": 6,
+      "user_id": 1,
+      "date": "15.12.2023",
+      "status": true,
+      "type": 2,
+      "content": {}
+   },
+   {
+      "id": 7,
+      "user_id": 1,
+      "date": "18.12.2023",
+      "status": true,
+      "type": 3,
+      "content": {}
+   }
+]

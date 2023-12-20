@@ -1,0 +1,50 @@
+[
+   {
+      "id": 1,
+      "first_name": "Iosif",
+      "last_name": "Isachko",
+      "email": "yaiosifua@gmail.com",
+      "password": "1111",
+      "type": "user"
+   },
+   {
+      "id": 2,
+      "first_name": "Alina",
+      "last_name": "Rudko",
+      "email": "reynoldsmeyer@gmail.com",
+      "password": "1111",
+      "type": "admin"
+   },
+   {
+      "id": 3,
+      "first_name": "Rich",
+      "last_name": "Pruitt",
+      "email": "richpruitt@gmail.com",
+      "password": "1111",
+      "type": "helper"
+   },
+   {
+      "id": 4,
+      "first_name": "Марина",
+      "last_name": "Миколаїв",
+      "email": "myrnapark@gmail.com",
+      "password": "1111",
+      "type": "user"
+   },
+   {
+      "id": 5,
+      "first_name": "Андрій",
+      "last_name": "Київ",
+      "email": "russocross@gmail.com",
+      "password": "1111",
+      "type": "user"
+   },
+   {
+      "id": 6,
+      "first_name": "Аліна",
+      "last_name": "Рудко",
+      "email": "watersskinner@gmail.com",
+      "password": "1111",
+      "type": "user"
+   }
+]

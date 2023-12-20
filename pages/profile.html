@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="msapplication-tap-highlight" content="no">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="author" content="IOSIF ISACHKO (LUAMORIS)">
+   <meta name="title" content="Профіль - Електронна Пенсійна Справа">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+
+   <meta name="og:type" content="">
+   <meta name="og:title" content="">
+   <meta name="og:image" content="/img/favicon.ico">
+   <meta name="og:description" content="">
+
+   <link rel="icon" href="/img/favicon.ico">
+   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+   <link rel="apple-touch-icon" href="/img/favicon.ico">
+   <link rel="apple-touch-icon-precomposed" href="/img/favicon.ico">
+
+   <link rel="stylesheet" href="/css/root.css">
+   <link rel="stylesheet" href="/css/normalize.css">
+   <link rel="stylesheet" href="/css/main.css">
+
+   <title>Профіль - Електронна Пенсійна Справа</title>
+</head>
+
+<body>
+
+   <div id="wrapper">
+      <div class="app">
+         <div class="app__container">
+            <div class="app__body">
+               <!-- CONTENT -->
+               <div id="content" class="content">
+                  <div class="content__container">
+                     <div class="content__body">
+                        <!--  -->
+
+                        <!-- header -->
+                        <header class="header">
+                           <div class="left">
+                              <a class="logotype__box" href="/">
+                                 <img src="/img/logotype.svg" alt="logotype" class="logotype">
+                              </a>
+                              <a href="/" class="title__box">
+                                 <p class="title">Електронна Пенсійна Справа</p>
+                              </a>
+                           </div>
+                           <div class="right">
+                              <a id="avatar" class="avatar__box _none" href="/profile">
+                                 <img src="/img/character.svg" alt="avatar" class="avatar">
+                              </a>
+                              <a id="hLogin" href="/login" class="login__box">
+                                 <p class="login">Вхід</p>
+                              </a>
+                              <a id="hUnlogin" href="/unlogin" class="login__box _none">
+                                 <p class="login">Вихід</p>
+                              </a>
+                           </div>
+                        </header>
+
+                        <!-- main -->
+                        <main class="main _profile">
+                           <div class="tabbed tabbed_column">
+
+                              <input type="radio" id="profile" name="css-tabs" checked>
+                              <input type="radio" id="case" name="css-tabs">
+                              <input type="radio" id="statement" name="css-tabs">
+                              <input type="radio" id="message" name="css-tabs">
+
+                              <ul class="tabs">
+                                 <li class="tab"><label for="profile">Профіль</label></li>
+                                 <li class="tab"><label for="case">Пенсійна справа</label></li>
+                                 <li class="tab"><label for="statement">Подати заяву</label></li>
+                                 <li class="tab"><label for="message">Повідомлення</label></li>
+                              </ul>
+
+                              <ul class="tablist">
+                                 <!-- Профіль -->
+                                 <div class="tab-content">
+                                    <div class="tab_profile">
+                                       <div class="imgbox">
+                                          <img src="/img/character.svg" alt="Avatar">
+                                       </div>
+                                       <h2 class="name">Іосіф Ісачко</h2>
+                                       <p>yaiosifua@gmail.com</p>
+                                       <p>USER</p>
+                                    </div>
+                                 </div>
+                                 <!-- Пенсійна справа -->
+                                 <div class="tab-content">
+                                    <ul class="tab_case">
+                                       <li class="icase">
+                                          <h3 class="icase__title">Особиста інформація</h3>
+                                          <div class="info">
+                                             <div class="info__title">Ім'я</div>
+                                             <div class="info__content">Іосіф</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Прізвище</div>
+                                             <div class="info__content">Ісачко</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Дата народження</div>
+                                             <div class="info__content">09.05.2002</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Сімейний стан</div>
+                                             <div class="info__content">неодружений</div>
+                                          </div>
+                                       </li>
+                                       <li class="icase">
+                                          <h3 class="icase__title">Контактні дані</h3>
+                                          <div class="info">
+                                             <div class="info__title">Номер</div>
+                                             <div class="info__content">+380931260000</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Електронна пошта</div>
+                                             <div class="info__content">yaiosifua@gmail.com</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Адрес</div>
+                                             <div class="info__content">Україна, місто Миколаїв</div>
+                                          </div>
+                                       </li>
+                                       <li class="icase">
+                                          <h3 class="icase__title">Ідентифікаційні дані</h3>
+                                          <div class="info">
+                                             <div class="info__title">Номер платника податків</div>
+                                             <div class="info__content">01234567899283</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Пенсійний номер</div>
+                                             <div class="info__content">56347899283</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Паспортна дані</div>
+                                             <div class="info__content">FPASPORT</div>
+                                          </div>
+                                       </li>
+                                       <li class="icase">
+                                          <h3 class="icase__title">Робоча історія</h3>
+                                          <div class="info">
+                                             <div class="info__title">Період</div>
+                                             <div class="info__content">01.10.2023 - 10.12.2023</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Дані про робоче місце</div>
+                                             <div class="info__content">ReDi, Вчитель-Волонтер</div>
+                                          </div>
+                                       </li>
+                                       <li class="icase">
+                                          <h3 class="icase__title">Виплати</h3>
+                                          <div class="info">
+                                             <div class="info__title">Статус</div>
+                                             <div class="info__content">активний</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Тип</div>
+                                             <div class="info__content">інвалідність</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Розмір</div>
+                                             <div class="info__content">2000 грн.</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Дата початку</div>
+                                             <div class="info__content">01.01.2019</div>
+                                          </div>
+                                          <div class="info">
+                                             <div class="info__title">Дата закінчення</div>
+                                             <div class="info__content">01.01.2025</div>
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <!-- Подати заяву -->
+                                 <div class="tab-content">
+                                    <div class="tab_statement">
+                                       <form id="form1" action="#" class="form">
+                                          <ul class="formlist">
+                                             <h3 class="block__title">Особиста інформація</h3>
+                                             <li class="fitem">
+                                                <label for="in1FirstName" class="flabel">Ім'я</label>
+                                                <input id="in1FirstName" type="text" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1LastName" class="flabel">Прізвище</label>
+                                                <input id="in1LastName" type="text" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1Date" class="flabel">Дата народження</label>
+                                                <input id="in1Date" type="date" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1Password" class="flabel">Сімейний стан</label>
+                                                <input id="in1Password" type="password" class="finput">
+                                             </li>
+                                             <h3 class="block__title">Особиста інформація</h3>
+                                             <li class="fitem">
+                                                <label for="in1Number" class="flabel">Номер</label>
+                                                <input id="in1Number" type="tel" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1Email" class="flabel">Електронна пошта</label>
+                                                <input id="in1Email" type="email" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1Adress" class="flabel">Адрес</label>
+                                                <input id="in1Adress" type="text" class="finput">
+                                             </li>
+                                             <h3 class="block__title">Робоча історія</h3>
+                                             <li class="fitem">
+                                                <label for="in1WorkStart" class="flabel">Дата початок</label>
+                                                <input id="in1WorkStart" type="date" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1WorkEnd" class="flabel">Дата закінчення</label>
+                                                <input id="in1WorkEnd" type="date" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1WorkDetail" class="flabel">Дані про робоче місце</label>
+                                                <input id="in1WorkDetail" type="text" class="finput">
+                                             </li>
+                                             <h3 class="block__title">Виплати</h3>
+                                             <li class="fitem">
+                                                <label for="in1PayStart" class="flabel">Дата початок</label>
+                                                <input id="in1PayStart" type="date" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1PayDetail" class="flabel">Тип виплат</label>
+                                                <input id="in1PayDetail" type="text" class="finput">
+                                             </li>
+                                             <h3 class="block__title">Банківські реквізити</h3>
+                                             <li class="fitem">
+                                                <label for="in1BankTitle" class="flabel">Назва банку</label>
+                                                <input id="in1BankTitle" type="text" class="finput">
+                                             </li>
+                                             <li class="fitem">
+                                                <label for="in1BankNumber" class="flabel">Номер рахунку</label>
+                                                <input id="in1BankNumber" type="text" class="finput">
+                                             </li>
+                                             <h3 class="block__title">Додаткові документи</h3>
+                                             <li class="fitem">
+                                                <input id="in1Dock" type="file" class="finput">
+                                             </li>
+                                             <h3 class="block__title">Електронний підпис</h3>
+                                             <li class="fitem">
+                                                <input id="in1File" type="file" class="finput">
+                                             </li>
+                                             <li class="fitem fitem_btn">
+                                                <button id="btn1" class="fbtn">Відправити</button>
+                                             </li>
+                                          </ul>
+                                       </form>
+                                    </div>
+                                 </div>
+                                 <!-- Повідомлення -->
+                                 <div class="tab-content">
+                                    <ul class="tab_massage">
+                                       <li class="msg">
+                                          <div class="msg_title">Виплати по інвалідності успішно отримані.</div>
+                                          <div class="msg_data">18.12.2023</div>
+                                       </li>
+                                       <li class="msg">
+                                          <div class="msg_title">Ви успішно додали свій досвід роботи.</div>
+                                          <div class="msg_data">15.12.2023</div>
+                                       </li>
+                                       <li class="msg">
+                                          <div class="msg_title">Успішна реєстрація Пенсійної справи!</div>
+                                          <div class="msg_data">10.12.2023</div>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </ul>
+
+                           </div>
+                        </main>
+
+                        <!-- footer -->
+                        <footer class="footer">
+                           <d class="copyright">
+                              <p>© 2023 — Електронна Пенсійна Справа</p>
+                           </d>
+                        </footer>
+
+                        <!--  -->
+                     </div>
+                  </div>
+               </div>
+               <!-- CONTENT -->
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- SCRIPT -->
+   <script src="/js/main.js"></script>
+
+</body>
+
+</html>

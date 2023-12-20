@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="msapplication-tap-highlight" content="no">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="author" content="IOSIF ISACHKO (LUAMORIS)">
+   <meta name="title" content="Вхід - Електронна Пенсійна Справа">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+
+   <meta name="og:type" content="">
+   <meta name="og:title" content="">
+   <meta name="og:image" content="/img/favicon.ico">
+   <meta name="og:description" content="">
+
+   <link rel="icon" href="/img/favicon.ico">
+   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+   <link rel="apple-touch-icon" href="/img/favicon.ico">
+   <link rel="apple-touch-icon-precomposed" href="/img/favicon.ico">
+
+   <link rel="stylesheet" href="/css/root.css">
+   <link rel="stylesheet" href="/css/normalize.css">
+   <link rel="stylesheet" href="/css/main.css">
+
+   <title>Вхід - Електронна Пенсійна Справа</title>
+</head>
+
+<body>
+
+   <div id="wrapper">
+      <div class="app">
+         <div class="app__container">
+            <div class="app__body">
+               <!-- CONTENT -->
+               <div id="content" class="content">
+                  <div class="content__container">
+                     <div class="content__body">
+                        <!--  -->
+
+                        <!-- header -->
+                        <header class="header">
+                           <div class="left">
+                              <a class="logotype__box" href="/">
+                                 <img src="/img/logotype.svg" alt="logotype" class="logotype">
+                              </a>
+                              <a href="/" class="title__box">
+                                 <p class="title">Електронна Пенсійна Справа</p>
+                              </a>
+                           </div>
+                           <div class="right">
+                              <a id="avatar" class="avatar__box _none" href="/profile">
+                                 <img src="/img/character.svg" alt="avatar" class="avatar">
+                              </a>
+                              <a id="hLogin" href="/login" class="login__box">
+                                 <p class="login">Вхід</p>
+                              </a>
+                              <a id="hUnlogin" href="/unlogin" class="login__box _none">
+                                 <p class="login">Вихід</p>
+                              </a>
+                           </div>
+                        </header>
+
+                        <!-- main -->
+                        <main class="main _login">
+                           <div class="tabbed tabbed_row">
+
+                              <input type="radio" id="login" name="css-tabs" checked>
+                              <input type="radio" id="registration" name="css-tabs">
+
+                              <ul class="tabs">
+                                 <li class="tab"><label for="login">Вхід</label></li>
+                                 <li class="tab"><label for="registration">Реєстрація</label></li>
+                              </ul>
+
+                              <!-- login -->
+                              <div class="tab-content">
+                                 <form id="formLogin" action="/login" method="post" class="form">
+                                    <ul class="formlist">
+                                       <li class="fitem">
+                                          <label for="inLoginEmail" class="flabel">Електронна пошта</label>
+                                          <input id="inLoginEmail" name="inLoginEmail" type="email" class="finput">
+                                       </li>
+                                       <li class="fitem">
+                                          <label for="inLoginPassword" class="flabel">Пароль</label>
+                                          <input id="inLoginPassword" name="inLoginPassword" type="password"
+                                             class="finput">
+                                       </li>
+                                       <li class="fitem fitem_btn">
+                                          <button id="btnLogin" class="fbtn" type="submit">Вхід</button>
+                                       </li>
+                                    </ul>
+                                 </form>
+                              </div>
+
+                              <!-- registration -->
+                              <div class="tab-content">
+                                 <form id="formRegistration" action="#" class="form">
+                                    <ul class="formlist">
+                                       <li class="fitem">
+                                          <label for="inRegFirstName" class="flabel">Ім'я</label>
+                                          <input id="inRegFirstName" type="text" class="finput">
+                                       </li>
+                                       <li class="fitem">
+                                          <label for="inRegLastName" class="flabel">Прізвище</label>
+                                          <input id="inRegLastName" type="text" class="finput">
+                                       </li>
+                                       <li class="fitem">
+                                          <label for="inRegEmail" class="flabel">Електронна пошта</label>
+                                          <input id="inRegEmail" type="email" class="finput">
+                                       </li>
+                                       <li class="fitem">
+                                          <label for="inRegPassword" class="flabel">Пароль</label>
+                                          <input id="inRegPassword" type="password" class="finput">
+                                       </li>
+                                       <li class="fitem fitem_btn">
+                                          <button id="btnReg" class="fbtn">Реєстрація</button>
+                                       </li>
+                                    </ul>
+                                 </form>
+                              </div>
+
+                           </div>
+                        </main>
+
+                        <!-- footer -->
+                        <footer class="footer">
+                           <d class="copyright">
+                              <p>© 2023 — Електронна Пенсійна Справа</p>
+                           </d>
+                        </footer>
+
+                        <!--  -->
+                     </div>
+                  </div>
+               </div>
+               <!-- CONTENT -->
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- SCRIPT -->
+   <script src="/js/main.js"></script>
+   <script src="/js/login.js"></script>
+
+</body>
+
+</html>
